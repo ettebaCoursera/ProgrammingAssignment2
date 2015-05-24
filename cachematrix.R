@@ -2,6 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
+## This function describes the creation of a special cache Matrix which is used to set the functions matrix, get the matrix , set the inverse of the matrix and get the inverse of the matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
 
@@ -20,6 +21,7 @@ getmatrix=getmatrix)
 
 
 ## Write a short comment describing this function
+## This function is used to calculate the inverse of a Matrix from the special matrix created above. The function first checks to see if the Inverse of the matrix has been calculated. If it has been calculated it skips the computation else it calculates the inverse of the matrix in the cache.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
